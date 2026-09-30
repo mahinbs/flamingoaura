@@ -1,5 +1,3 @@
-import { publicUrlFor } from "../../globals/constants";
-
 function ItodoImage(props) {
     return(
         <>
