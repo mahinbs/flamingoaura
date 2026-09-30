@@ -1,5 +1,3 @@
-import ItodoImage from "../../../elements/itodo-img";
-import solution from "../../../../assets/images/solution.webp";
 import { ourServices } from "../../../../globals/constants";
 function Sectionoursolutiion() {
   return (

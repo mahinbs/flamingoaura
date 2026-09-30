@@ -1,4 +1,4 @@
-import { ourServices, publicUrlFor } from "../../../../globals/constants";
+import { ourServices } from "../../../../globals/constants";
 // import { NavLink } from "react-router-dom";
 import backgroundimage from "../../../../assets/images/whychooseusbackground.webp";
 

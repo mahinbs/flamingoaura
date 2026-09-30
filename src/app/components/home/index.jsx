@@ -1,5 +1,4 @@
 import SectionSlider1 from "../../sections/home/index/section-slider1";
-import SectionServices1 from "../../sections/home/index/section-services1";
 import SectionAboutCompany1 from "../../sections/home/index/section-about-company1";
 import SectionWhyChooseUs1 from "../../sections/home/index/section-why-choose-us1";
 // import SectionVideo1 from "../../sections/home/index/section-video1";

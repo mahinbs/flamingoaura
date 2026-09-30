@@ -135,12 +135,12 @@ function ContactUsPage({ setLoading }) {
                           <i className="flaticon-map-location" />
                         </div>
                         <div className="sx-icon-bx-info">
-                          <a href="#" className="sx-icon-bx-title-info">
+                          <span className="sx-icon-bx-title-info">
                             Contact Location
-                          </a>
-                          <a href="#" className="sx-icon-bx-title">
+                          </span>
+                          <span className="sx-icon-bx-title">
                             {companyDetails.address}
-                          </a>
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -187,7 +187,7 @@ function ContactUsPage({ setLoading }) {
                             required: "Email is required",
                             pattern: {
                               value:
-                                /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
+                                /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/,
                               message: "Entered email is invalid",
                             },
                           })}

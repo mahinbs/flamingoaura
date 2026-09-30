@@ -1,5 +1,4 @@
 // import { publicUrlFor } from "../../../../globals/constants";
-import { NavLink } from "react-router-dom";
 import { register } from "swiper/element/bundle";
 import bannerone from "../../../assets/images/webdevelopmentbanner.webp";
 import bannertwo from "../../../assets/images/webdevelopmentbannertwo.webp";

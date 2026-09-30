@@ -1,4 +1,3 @@
-import { SectionPricing1Inner } from "../../home/index/section-pricing1";
 import { SectionWhyChooseUs2Inner } from "../../home/index2/section-why-choose-us2";
 
 function SectionWhyChooseUs4() {

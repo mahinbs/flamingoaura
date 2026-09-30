@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import { publicUrlFor } from "../../../globals/constants";
 // import banner from "../../../assets/images/servicesbanner.jpg";
 function Banner({ _data }) {
   return (
