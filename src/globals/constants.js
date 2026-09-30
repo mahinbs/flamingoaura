@@ -27,7 +27,8 @@ export function publicUrlFor(path) {
 export const companyDetails = {
   name: "Flamingo",
   number: "+91-7330690244",
-  address: "126-A Nandi paradise",
+  address:
+    "Sy No 41/13, Melkios Pride, 2nd Floor, Khanamet, Madhapur, Shaikpet, Hyderabad, Telangana, India - 500081",
   email: "info@flamingoaura.com",
 };
 
