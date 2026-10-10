@@ -79,6 +79,119 @@ export const ourServices = [
   },
 ];
 
+export const serviceCategories = [
+  {
+    icon: "fa fa-line-chart",
+    heading: "Finance and ERP Services",
+    description:
+      "Enterprise resource planning expertise that connects your people, finance, and operations on a single platform.",
+    services: [
+      {
+        name: "Oracle HCM Fusion",
+        description:
+          "Implementation, configuration, and support for Oracle Fusion Human Capital Management, covering core HR, payroll, talent, and workforce management.",
+      },
+    ],
+  },
+  {
+    icon: "fa fa-cubes",
+    heading: "SAP Services",
+    description:
+      "End-to-end SAP consulting, implementation, and support across the core modules that run your business.",
+    services: [
+      {
+        name: "SAP SD (Sales and Distribution)",
+        description:
+          "Order-to-cash processes including sales orders, pricing, shipping, and billing.",
+      },
+      {
+        name: "SAP MM (Materials Management)",
+        description:
+          "Procurement, purchasing, inventory management, and vendor evaluation.",
+      },
+      {
+        name: "SAP FICO (Financial Accounting and Controlling)",
+        description:
+          "Financial accounting, general ledger, cost centres, profitability analysis, and reporting.",
+      },
+      {
+        name: "SAP EWM (Extended Warehouse Management)",
+        description:
+          "Warehouse processes from inbound and outbound logistics to storage, picking, and yard management.",
+      },
+    ],
+  },
+  {
+    icon: "fa fa-check-square-o",
+    heading: "Software Testing and Automation",
+    description:
+      "Manual and automated testing services that improve quality and speed up releases for enterprise and web applications.",
+    services: [
+      {
+        name: "Worksoft Certify",
+        description:
+          "Codeless test automation for SAP and other enterprise business processes.",
+      },
+      {
+        name: "Tricentis Tosca",
+        description:
+          "Model-based, scriptless test automation for end-to-end enterprise testing.",
+      },
+      {
+        name: "Panaya",
+        description:
+          "Change impact analysis and test management for SAP and Oracle upgrades.",
+      },
+      {
+        name: "API Testing",
+        description:
+          "Functional, integration, and performance testing of REST and SOAP APIs.",
+      },
+      {
+        name: "Playwright Automation Testing",
+        description:
+          "Fast, reliable cross-browser automation for modern web applications.",
+      },
+    ],
+  },
+  {
+    icon: "fa fa-heartbeat",
+    heading: "Healthcare Services",
+    description:
+      "Accurate, compliant revenue cycle services that help healthcare providers get paid faster.",
+    services: [
+      {
+        name: "Medical Coding",
+        description:
+          "Accurate ICD-10, CPT, and HCPCS coding by trained, certified coders.",
+      },
+      {
+        name: "Medical Billing",
+        description:
+          "Claim submission, payment posting, denial management, and accounts receivable follow-up.",
+      },
+    ],
+  },
+  {
+    icon: "fa fa-headphones",
+    heading: "BPO Services",
+    description:
+      "Scalable business process outsourcing that keeps your customers supported around the clock.",
+    services: [
+      {
+        name: "Customer Support – Voice and Chat Process",
+        description:
+          "Dedicated inbound and outbound voice support and live chat teams.",
+      },
+      {
+        name: "AI/ML-Based Calling Services",
+        description:
+          "Intelligent, automated calling powered by AI and machine learning for support, lead generation, and follow-ups.",
+      },
+    ],
+  },
+];
+
 export const whyChooseUs = {
   mainHeading:
     "At Flamingo, we prioritize delivering high-quality, customized solutions that help businesses thrive in the digital landscape. Here’s why clients trust us as their technology partner.",

@@ -10693,3 +10693,74 @@ INPUT ANIMATION
   width: 200px;
   height: 100%;
 }
+
+/* Service categories (Finance/ERP, SAP, Testing, Healthcare, BPO) */
+.service-category-card {
+  height: 100%;
+  padding: 40px;
+  background: #0b0f16;
+  border: 1px solid #262b33;
+  border-top: 3px solid var(--primary);
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+.service-category-card:hover {
+  border-color: var(--primary);
+  transform: translateY(-4px);
+}
+.service-category-head {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.service-category-head .sx-tilte {
+  margin: 0;
+}
+.service-category-icon {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: rgba(228, 39, 123, 0.12);
+  color: var(--primary);
+  font-size: 24px;
+}
+.service-category-list {
+  list-style: none;
+  margin: 20px 0 0;
+  padding: 0;
+}
+.service-category-list li {
+  position: relative;
+  padding: 12px 0 12px 22px;
+  border-top: 1px solid #1c2129;
+}
+.service-category-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 20px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--primary);
+}
+.service-category-list li strong {
+  display: block;
+  color: var(--title-color);
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.service-category-list li span {
+  display: block;
+  font-size: 14px;
+  line-height: 1.6;
+}
+@media (max-width: 575px) {
+  .service-category-card {
+    padding: 28px 20px;
+  }
+}

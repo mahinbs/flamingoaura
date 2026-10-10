@@ -1,6 +1,7 @@
 import SectionSlider1 from "../../sections/home/index/section-slider1";
 import SectionAboutCompany1 from "../../sections/home/index/section-about-company1";
 import SectionWhyChooseUs1 from "../../sections/home/index/section-why-choose-us1";
+import SectionServiceCategories from "../../sections/home/index/section-service-categories";
 // import SectionVideo1 from "../../sections/home/index/section-video1";
 // import SectionPricing1 from "../../sections/home/index/section-pricing1";
 // import SectionClients1 from "../../sections/home/index/section-clients1";
@@ -22,6 +23,7 @@ function Home1Page() {
       <SectionAboutCompany1 />
       {/* <SectionServices1 /> */}
       <SectionWhyChooseUs1 />
+      <SectionServiceCategories />
 
       {/* <SectionVideo1 /> */}
       {/* <SectionPricing1 /> */}

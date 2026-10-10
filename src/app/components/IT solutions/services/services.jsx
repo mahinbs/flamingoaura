@@ -1,5 +1,6 @@
 import Banner from "../../../sections/common/banner";
 import SectionWhyChooseUs1 from "../../../sections/home/index/section-why-choose-us1";
+import SectionServiceCategories from "../../../sections/home/index/section-service-categories";
 import SectionAboutCompany1 from "../../../sections/home/index/section-about-company1";
 import SectionVideo2 from "../../../sections/home/index2/section-video2";
 import SectionWhyChooseUs4 from "../../../sections/company/about/section-why-choose-us4";
@@ -16,6 +17,7 @@ function ServicesPage() {
     <>
       <Banner _data={{ img: banner, title: "Services" }} />
       <SectionWhyChooseUs1 />
+      <SectionServiceCategories />
       <SectionAboutCompany1 />
       <SectionVideo2 />
       <SectionWhyChooseUs4 />
