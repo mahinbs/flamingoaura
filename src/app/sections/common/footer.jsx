@@ -37,7 +37,7 @@ function Footer() {
                 <div className="widget widget_about">
                   <div className="logo-footer clearfix p-b15">
                     {/* <NavLink to="/index" className="sx-text-primary"> */}
-                    <img src="/logo.png" alt="#" width={120} height={80} />
+                    <img src="/logo.png" alt="Flamingo AI Solutions" style={{ height: 96, width: "auto" }} />
                     {/* </NavLink> */}
                   </div>
                   <p>

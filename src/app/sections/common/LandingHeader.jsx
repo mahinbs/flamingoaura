@@ -36,7 +36,7 @@ function LandingHeader({
                   src="/logo.png"
                   alt="Logo"
                   className="header-logo-main"
-                  style={{ height: "5rem", width: "3.9rem" }}
+                  style={{ height: "5rem", width: "auto" }}
                 />
               </div>
               <button

@@ -27,10 +27,10 @@ function Header1() {
             <div className="container clearfix">
               <Link to="/" className="logo-header">
                 <img
-                  src="/logo.jpeg"
+                  src="/logo.png"
                   alt="Logo"
                   className="header-logo-main"
-                  style={{ height: "5rem", width: "3.9rem" }}
+                  style={{ height: "5rem", width: "auto" }}
                 />
               </Link>
               {/* NAV Toggle Button */}
