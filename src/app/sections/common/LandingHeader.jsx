@@ -32,12 +32,15 @@ function LandingHeader({
           <div className="main-bar">
             <div className="container clearfix">
               <div className="logo-header">
-                <img
-                  src="/logo.png"
-                  alt="Logo"
-                  className="header-logo-main"
-                  style={{ height: "5rem", width: "auto" }}
-                />
+                <span className="brand-lockup" style={{ display: "inline-flex", flexDirection: "column", alignItems: "center", lineHeight: 1 }}>
+                  <img
+                    src="/logo-mark.png"
+                    alt="Flamingoaura Private Limited"
+                    className="header-logo-main"
+                    style={{ height: "3.8rem", width: "auto" }}
+                  />
+                  <span style={{ marginTop: 5, fontSize: 11, fontWeight: 500, letterSpacing: "0.05em", color: "#63bccb", whiteSpace: "nowrap" }}>Flamingoaura Private Limited</span>
+                </span>
               </div>
               <button
                 id="mobile-side-drawer"

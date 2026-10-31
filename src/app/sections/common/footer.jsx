@@ -37,7 +37,10 @@ function Footer() {
                 <div className="widget widget_about">
                   <div className="logo-footer clearfix p-b15">
                     {/* <NavLink to="/index" className="sx-text-primary"> */}
-                    <img src="/logo.png" alt="Flamingo AI Solutions" style={{ height: 96, width: "auto" }} />
+                    <span style={{ display: "inline-flex", flexDirection: "column", alignItems: "center", lineHeight: 1 }}>
+                      <img src="/logo-mark.png" alt="Flamingoaura Private Limited" style={{ height: 84, width: "auto" }} />
+                      <span style={{ marginTop: 8, fontSize: 13, fontWeight: 500, letterSpacing: "0.05em", color: "#63bccb", whiteSpace: "nowrap" }}>Flamingoaura Private Limited</span>
+                    </span>
                     {/* </NavLink> */}
                   </div>
                   <p>
@@ -224,7 +227,7 @@ function Footer() {
           </div>
           <div className="sx-f-copy">
             © {new Date().getFullYear()} by{" "}
-            <NavLink to="/index">Flamingo.</NavLink> All rights reserved.
+            <NavLink to="/index">Flamingoaura Private Limited.</NavLink> All rights reserved.
           </div>
         </div>
         {/* FOOTER COPYRIGHT */}
