@@ -39,7 +39,7 @@ function LandingHeader({
                     className="header-logo-main"
                     style={{ height: "3.8rem", width: "auto" }}
                   />
-                  <span style={{ marginTop: 5, fontSize: 11, fontWeight: 500, letterSpacing: "0.05em", color: "#63bccb", whiteSpace: "nowrap" }}>Flamingoaura Private Limited</span>
+                  <span style={{ marginTop: 6, fontSize: 14, fontWeight: 600, letterSpacing: "0.04em", color: "#63bccb", whiteSpace: "nowrap" }}>Flamingoaura Private Limited</span>
                 </span>
               </div>
               <button
